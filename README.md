@@ -6,7 +6,7 @@ Durante este curso crearas una aplicación profesional de Realidad Aumentada lla
 
 ## Capitulo uno: ¿Cómo crear una aplicación de Realidad Aumentada?
 
-[![Mira el video en YouTube](https://i9.ytimg.com/vi_webp/TI599JorZ5M/maxresdefault.webp?v=620b6a77&sqp=CKTk7LUG&rs=AOn4CLBlqcNwafIEZnnow0CLR4THMVrorg)](https://youtu.be/TI599JorZ5M)
+[![Mira el video en YouTube](https://i9.ytimg.com/vi_webp/TI599JorZ5M/maxresdefault.webp?v=620b6a77&sqp=CND87bUG&rs=AOn4CLB1pWwcgGl9uVFE5opKXLqMapG0UQ)](https://youtu.be/TI599JorZ5M)
 
 ### Configuracion
 
@@ -56,4 +56,16 @@ Para mejorar el Scroll selecionar Scroll View → En Scroll Rect → Desactivar 
 
 ### DOTween
 
-[Link DOTween (HOTween v2) en Unity Asset Store](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
+[Link DOTween (HOTween v2) en Unity Asset Store](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)  
+
+## Capitulo tres: Detección de planos y nube de puntos en Realidad Aumentada
+
+[![Mira el video en YouTube](https://i9.ytimg.com/vi_webp/6bRkKZ9Onk4/maxresdefault.webp?v=61a35fce&sqp=CLid7rUG&rs=AOn4CLAlhsNIZrEDbYcJSKai8VU9JNTOwg)](https://youtu.be/6bRkKZ9Onk4)
+
+En las versiones recientes de ARFoundation se han cambiado algunos nombres: 
+
+- AR Session Origin → XR Origin
+El video usa AR Session Origin, si no esta se debe usar XR Origin en su lugar, verificar que este GameObject se encuentre en la posicion (0,0,0)
+
+
+
