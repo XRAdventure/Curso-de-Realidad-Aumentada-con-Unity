@@ -46,9 +46,11 @@ En versiones mas reciente de Unity, existen dos tipos de elementos de la UI:
 - TextMeshPro
 - Legacy
 
-Este video emplea los elementos Legacy, se pueden usar ambos tipos, pero si se usa TextMeshPro se debe hacer un pequeno cambio mas adelante en el codigo. 
+Para las versiones reciente, este video emplea los elementos Legacy, se pueden usar ambos tipos, pero si se usa TextMeshPro se debe hacer un pequeno cambio mas adelante en el codigo. 
 
 ![image](https://github.com/user-attachments/assets/6d299d1a-ad54-4206-96ba-7b7a99ed4660)
+
+*Nota: si usan la misma version del video selecionen la misma tal cual*
 
 Para mejorar el Scroll selecionar Scroll View → En Scroll Rect → Desactivar Veritcal
 
@@ -67,5 +69,61 @@ En las versiones recientes de ARFoundation se han cambiado algunos nombres:
 - AR Session Origin → XR Origin
 El video usa AR Session Origin, si no esta se debe usar XR Origin en su lugar, verificar que este GameObject se encuentre en la posicion (0,0,0)
 
+## Capitulo cuatro: ¿Cómo integrar Modelos 3D en Realidad Aumentada?
 
+[![Mira el video en YouTube](https://i9.ytimg.com/vi/Hjx9o8D1DZg/maxresdefault.jpg?v=61abce96&sqp=CNDH7rUG&rs=AOn4CLChZ7mJTbBelwu8iZqUeTLEHIEiqA)]([https://youtu.be/6bRkKZ9Onk4](https://youtu.be/Hjx9o8D1DZg))
 
+### Que hago si mi modelo 3D no aparece en AR?
+
+1. Verificar la escala del modelo, puede que tu modelo este muy grande o muy pequeno, para ello usar el cubo de Unity como referencia ese cubo tiene 1x1x1 metro
+2. Asegurarse que el modelo esta en la posicon (0, 0, 0)
+3. Posicionar el pivote en el centro del modelo 3D
+
+- Pivote
+   - Modelo 3D
+
+Respetar esta herarquia; crea un empty object (pivote) y has el modelo 3D hijo de es GameObject, luego, recuerda que es el modelo 3D que debes mover para que quede posicionado corectamente respecto al pivote
+
+![image](https://github.com/user-attachments/assets/3b4089f8-8d09-451f-988c-70b402edf402)
+
+### Button Item Prefab
+
+Al definir el prefab del boton es obligatorio seguir este orden de herarquia:
+
+- ButtonItemPrefab
+  - ItemName
+  - ItemImage
+  - ItemDescription
+
+![image](https://github.com/user-attachments/assets/e7d4a52e-f122-49c8-a4e8-d5d8bcb1d771)
+
+### Script ItemButtonManager
+
+Importante! En el capitulos 2 en la UI, les dije que existen dos tipos de UI, TextMeshPro, Legacy, dependiendo de cual hayan elegido, el codigo cambiara. 
+
+- Legacy o la misma del video
+
+El codigo funciona tal cual no necesita cambios
+
+- TextMeshPro
+
+Andir el namespace:
+
+```csharp
+using TMPro;
+```
+
+Cambiar esta parte de la funcion start queda asi:
+
+```csharp
+    void Start()
+    {
+        transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = itemName;
+        transform.GetChild(1).GetComponent<RawImage>().texture = itemImage.texture;
+        transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = itemDescription;
+
+        var button = GetComponent<Button>();
+        button.onClick.AddListener(GameManager.Instance.ARPosition);
+        button.onClick.AddListener(Create3DModel);
+    }
+```
