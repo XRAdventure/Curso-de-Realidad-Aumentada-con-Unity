@@ -34,3 +34,26 @@ La version de ARFoundation y ARCore que aparecera en Package Manager, dependera 
 *1. ARCore XR Plugin es el mismo que Google ARCore XR Plugin*
 
 *2. En recientes versiones de Unity ya no aparece el icono al script GameManager*
+
+## Capitulo dos: Diseño de Interfaz para Realidad Aumentada
+
+[![Mira el video en YouTube](https://i9.ytimg.com/vi/97d-2bPKhgk/maxresdefault.jpg?v=620301fe&sqp=CND87bUG&rs=AOn4CLAQyhi82FN9pZ9qaR6I-O8Aw7zbEQ)](https://youtu.be/97d-2bPKhgk)
+
+### UI 
+
+En versiones mas reciente de Unity, existen dos tipos de elementos de la UI: 
+
+- TextMeshPro
+- Legacy
+
+Este video emplea los elementos Legacy, se pueden usar ambos tipos, pero si se usa TextMeshPro se debe hacer un pequeno cambio mas adelante en el codigo. 
+
+![image](https://github.com/user-attachments/assets/6d299d1a-ad54-4206-96ba-7b7a99ed4660)
+
+Para mejorar el Scroll selecionar Scroll View → En Scroll Rect → Desactivar Veritcal
+
+![image](https://github.com/user-attachments/assets/84f3066c-830b-4a56-87e5-38de5f4691ab)
+
+### DOTween
+
+[Link DOTween (HOTween v2) en Unity Asset Store](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
