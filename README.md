@@ -2,7 +2,26 @@
 
 Durante este curso, crearás una aplicación profesional de Realidad Aumentada llamada **AR Furniture**. Esta aplicación permite al usuario posicionar objetos en su entorno seleccionándolos desde un inventario. Una vez colocados, los objetos pueden ser seleccionados, movidos y rotados. Además, es posible tomar una foto del entorno con los objetos en AR y compartirla en redes sociales.
 
-## Requerimientos
+## 📖 Capitulos
+
+- [Capitulo 0]
+- [Capitulo 1]
+- [Capitulo 2]
+- [Capitulo 3]
+- [Capitulo 4]
+- [Capitulo 5]
+- [Capitulo 6]
+- [Capitulo 7]
+- [Capitulo 8]
+
+## 📞 Contacto
+
+- **🐼 [Discord](https://discord.gg/TBjZuCSmG2)**
+- **🐦 [Twitter / X ](https://twitter.com/UnityAdventure)**
+- **📷 [Instagram](https://www.instagram.com/unity_adventure)**
+
+
+## Capitulo cero: Requerimientos
 
 ### Unity
 
