@@ -1,8 +1,33 @@
-# Curso de Realidad Aumentada con Unity
+# Curso de Realidad Aumentada con Unity 📱
 
-Durante este curso crearas una aplicación profesional de Realidad Aumentada llamada AR Furniture, la cual permite al usuario posicionar objetos en su entorno al selecionarlos desde un inventario. Una vez posicionados, pueden ser seleccionados, movidos y rotados, además es posible tomar una foto del ambiente con los objetos en AR y compartirla en redes sociales
+Durante este curso, crearás una aplicación profesional de Realidad Aumentada llamada **AR Furniture**. Esta aplicación permite al usuario posicionar objetos en su entorno seleccionándolos desde un inventario. Una vez colocados, los objetos pueden ser seleccionados, movidos y rotados. Además, es posible tomar una foto del entorno con los objetos en AR y compartirla en redes sociales.
 
 ### Requerimientos
+
+#### Unity
+
+Este curso ha sido desarrollado con Unity 2020.3.19f1 LTS, pero es compatible con:
+
+- Unity 2020.3.x
+- Unity 2021.3.x
+- Unity 2022.3.x
+
+Es importante que la versión de Unity que vayan a usar tenga los módulos de Android instalados. ¿Cómo saber si tienes los módulos de Android?
+
+1. Abre Unity Hub.
+2. Ve a **Installs**.
+3. Haz clic en el ícono ⚙️ de la versión.
+4. Selecciona **Add Modules**.
+5. Debes tener instalados:
+   - OpenJDK
+   - Android SDK & NDK Tools
+6. Si no los tienen instalados, simplemente selecciónalos e instalan.
+
+<img src="https://github.com/user-attachments/assets/b051eb56-22d3-4b8a-b5d5-a920e8833d34" alt="Hub" width="750"/>
+
+#### Visual Studio
+
+
 
 ## Capitulo uno: ¿Cómo crear una aplicación de Realidad Aumentada?
 
