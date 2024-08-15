@@ -1,4 +1,4 @@
-# Curso de Realidad Aumentada con Unity 📱
+# 📢 **Actualización y pasos a seguir durante el Curso de Realidad Aumentada con Unity** 📱
 
 Durante este curso, crearás una aplicación profesional de Realidad Aumentada llamada **AR Furniture**. Esta aplicación permite al usuario posicionar objetos en su entorno seleccionándolos desde un inventario. Una vez colocados, los objetos pueden ser seleccionados, movidos y rotados. Además, es posible tomar una foto del entorno con los objetos en AR y compartirla en redes sociales.
 
