@@ -2,9 +2,9 @@
 
 Durante este curso, crearás una aplicación profesional de Realidad Aumentada llamada **AR Furniture**. Esta aplicación permite al usuario posicionar objetos en su entorno seleccionándolos desde un inventario. Una vez colocados, los objetos pueden ser seleccionados, movidos y rotados. Además, es posible tomar una foto del entorno con los objetos en AR y compartirla en redes sociales.
 
-### Requerimientos
+## Requerimientos
 
-#### Unity
+### Unity
 
 Este curso ha sido desarrollado con Unity 2020.3.19f1 LTS, pero es compatible con:
 
@@ -25,9 +25,22 @@ Es importante que la versión de Unity que vayan a usar tenga los módulos de An
 
 <img src="https://github.com/user-attachments/assets/b051eb56-22d3-4b8a-b5d5-a920e8833d34" alt="Hub" width="750"/>
 
-#### Visual Studio
+### Visual Studio
 
+Para este curso, el desarrollo del código se realiza con Visual Studio. Aunque no es obligatorio, se recomienda usarlo para seguir los videos de manera más efectiva. Puedes utilizar:
 
+- Visual Studio Community 2019
+- Visual Studio Community 2022
+
+Visual Studio debe estar correctamente instalado y configurado, y debe estar enlazado con Unity. Para hacerlo:
+
+1. Abre el instalador de Visual Studio.
+2. Selecciona la versión de Visual Studio y haz clic en **Modify**.
+3. Añade **Game Development with Unity**. <br> <img src="https://github.com/user-attachments/assets/76d81690-a588-490d-96d0-ea4ce6a762f8" alt="Hub" width="450"/>
+4. En el proyecto de Unity en el que vayas a trabajar, ve a **Edit → Preferences → External Tools → External Script Editor** y selecciona la versión de Visual Studio que vas a usar.
+   ![image](https://github.com/user-attachments/assets/8f0bafab-86e0-412e-95fb-d3c8c4c7cf5f)
+
+**¡Ahora sí, estás listo para comenzar el curso! A continuación, encontrarás los capítulos y algunas consideraciones importantes a tener en cuenta.**
 
 ## Capitulo uno: ¿Cómo crear una aplicación de Realidad Aumentada?
 
