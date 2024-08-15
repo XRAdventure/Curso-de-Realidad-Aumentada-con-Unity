@@ -143,7 +143,7 @@ El video usa AR Session Origin, si no esta se debe usar XR Origin en su lugar, v
 <table>
   <tr>
     <td>
-      <a href="https://youtu.be/Hjx9o8D1DZg">
+      <a href="https://www.youtube.com/watch?v=ETeSDb1-Cco">
         <img src="https://github.com/user-attachments/assets/30822169-c949-4a37-8681-e1e02b0d912b" alt="Mira el video en YouTube" width="600"/>
       </a>
     </td>
