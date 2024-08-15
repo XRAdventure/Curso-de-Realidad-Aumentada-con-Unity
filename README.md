@@ -44,11 +44,7 @@ Visual Studio debe estar correctamente instalado y configurado, y debe estar enl
 
 ## Capitulo uno: ¿Cómo crear una aplicación de Realidad Aumentada?
 
-[![Mira el video en YouTube](https://github.com/user-attachments/assets/c88d1e30-c87e-4d7e-8a14-3d50b1d61d1e)](https://youtu.be/TI599JorZ5M)
-
-<a href="https://youtu.be/TI599JorZ5M">
-  <img src="https://github.com/user-attachments/assets/c88d1e30-c87e-4d7e-8a14-3d50b1d61d1e" alt="Mira el video en YouTube" width="600"/>
-</a>
+**⬇️⬇️⬇️ Click en la imagen para ver el video 👇👇👇**
 
 <table>
   <tr>
@@ -61,20 +57,20 @@ Visual Studio debe estar correctamente instalado y configurado, y debe estar enl
 </table>
 
 
-### Configuracion
+### Configuración
 
-1. Desabilitar Auto Graphics API (Si no aparece la opcion de eliminar Vulkan)
-2. Eliminar Vulkan
-3. Minimum API Level → Android 8.0 'Ore' (API Level 26)
-4. Scripting Backen → IL2CPP
-5. Api Compatibility Level* → NET 4.X o .Net Framework
-6. Target Architecture → ARMv7 y ARM64 (Si presenta errores desactivar ARMv7)
+1. Deshabilitar Auto Graphics API (si no aparece la opción de eliminar Vulkan).
+2. Eliminar Vulkan.
+3. Minimum API Level → Android 8.0 'Oreo' (API Level 26).
+4. Scripting Backend → IL2CPP.
+5. API Compatibility Level → .NET 4.X o .NET Framework.
+6. Target Architecture → ARMv7 y ARM64 (si presenta errores, desactivar ARMv7).
 
 ![image](https://github.com/user-attachments/assets/eacef1cb-2600-4995-8e5b-c4256b384cf5)
 
 ### Versiones
 
-La version de ARFoundation y ARCore que aparecera en Package Manager, dependera de la version de Unity que esten usando, eleguir la que aparezca.
+La versión de AR Foundation y ARCore que aparecerá en el Package Manager dependerá de la versión de Unity que estén usando. Elijan la que aparezca.
 
 | Editor Version | AR Foundation Version |
 |----------------|-----------------------|
@@ -82,32 +78,40 @@ La version de ARFoundation y ARCore que aparecera en Package Manager, dependera 
 | 2021.3+        | 5.1                   |
 | 2020.3+        | 4.2                   |
 
-*Notas:* 
+*Notas:*
 
-*1. ARCore XR Plugin es el mismo que Google ARCore XR Plugin*
+*1. ARCore XR Plugin es el mismo que Google ARCore XR Plugin.*
 
-*2. En recientes versiones de Unity ya no aparece el icono al script GameManager*
+*2. En versiones recientes de Unity, ya no aparece el ícono en el script GameManager.*
 
 ## Capitulo dos: Diseño de Interfaz para Realidad Aumentada
 
-[![Mira el video en YouTube](https://i9.ytimg.com/vi/97d-2bPKhgk/maxresdefault.jpg?v=620301fe&sqp=CND87bUG&rs=AOn4CLAQyhi82FN9pZ9qaR6I-O8Aw7zbEQ)](https://youtu.be/97d-2bPKhgk)
+**⬇️⬇️⬇️ Click en la imagen para ver el video 👇👇👇**
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/97d-2bPKhgk">
+        <img src="https://github.com/user-attachments/assets/8859a4b6-dcb5-466b-b783-ea1eaad949c9" alt="Mira el video en YouTube" width="600"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### UI 
 
-En versiones mas reciente de Unity, existen dos tipos de elementos de la UI: 
+En versiones más recientes de Unity, existen dos tipos de elementos de la UI:
 
-- TextMeshPro
-- Legacy
+TextMeshPro
+Legacy
+Para las versiones recientes, este video emplea los elementos Legacy. Se pueden usar ambos tipos, pero si se usa TextMeshPro, se debe hacer un pequeño cambio más adelante en el código.
 
-Para las versiones reciente, este video emplea los elementos Legacy, se pueden usar ambos tipos, pero si se usa TextMeshPro se debe hacer un pequeno cambio mas adelante en el codigo. 
+<img src="https://github.com/user-attachments/assets/6d299d1a-ad54-4206-96ba-7b7a99ed4660" alt="Hub" width="600"/>
 
-![image](https://github.com/user-attachments/assets/6d299d1a-ad54-4206-96ba-7b7a99ed4660)
+*Nota: Si usan la misma versión del video, seleccionen la misma tal cual.*
 
-*Nota: si usan la misma version del video selecionen la misma tal cual*
+Para mejorar el scroll, seleccionen Scroll View → En Scroll Rect → Desactivar Vertical.
 
-Para mejorar el Scroll selecionar Scroll View → En Scroll Rect → Desactivar Veritcal
-
-![image](https://github.com/user-attachments/assets/84f3066c-830b-4a56-87e5-38de5f4691ab)
+<img src="https://github.com/user-attachments/assets/84f3066c-830b-4a56-87e5-38de5f4691ab" alt="Hub" width="400"/>
 
 ### DOTween
 
@@ -115,72 +119,142 @@ Para mejorar el Scroll selecionar Scroll View → En Scroll Rect → Desactivar 
 
 ## Capitulo tres: Detección de planos y nube de puntos en Realidad Aumentada
 
-[![Mira el video en YouTube](https://i9.ytimg.com/vi_webp/6bRkKZ9Onk4/maxresdefault.webp?v=61a35fce&sqp=CLid7rUG&rs=AOn4CLAlhsNIZrEDbYcJSKai8VU9JNTOwg)](https://youtu.be/6bRkKZ9Onk4)
+
+**⬇️⬇️⬇️ Click en la imagen para ver el video 👇👇👇**
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/6bRkKZ9Onk4">
+        <img src="https://github.com/user-attachments/assets/83f49b42-fe9f-487f-a81b-4a9980f94585" alt="Mira el video en YouTube" width="600"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 En las versiones recientes de ARFoundation se han cambiado algunos nombres: 
 
-- AR Session Origin → XR Origin
+- **AR Session Origin → XR Origin**
+
 El video usa AR Session Origin, si no esta se debe usar XR Origin en su lugar, verificar que este GameObject se encuentre en la posicion (0,0,0)
 
 ## Capitulo cuatro: ¿Cómo integrar Modelos 3D en Realidad Aumentada?
 
-[![Mira el video en YouTube](https://i9.ytimg.com/vi/Hjx9o8D1DZg/maxresdefault.jpg?v=61abce96&sqp=CNDH7rUG&rs=AOn4CLChZ7mJTbBelwu8iZqUeTLEHIEiqA)]([https://youtu.be/6bRkKZ9Onk4](https://youtu.be/Hjx9o8D1DZg))
+**⬇️⬇️⬇️ Click en la imagen para ver el video 👇👇👇**
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/Hjx9o8D1DZg">
+        <img src="https://github.com/user-attachments/assets/30822169-c949-4a37-8681-e1e02b0d912b" alt="Mira el video en YouTube" width="600"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
-### Que hago si mi modelo 3D no aparece en AR?
+### ¿Qué hago si mi modelo 3D no aparece en AR?
 
-1. Verificar la escala del modelo, puede que tu modelo este muy grande o muy pequeno, para ello usar el cubo de Unity como referencia ese cubo tiene 1x1x1 metro
-2. Asegurarse que el modelo esta en la posicon (0, 0, 0)
-3. Posicionar el pivote en el centro del modelo 3D
+1. Verificar la escala del modelo; puede que tu modelo esté muy grande o muy pequeño. Para ello, usa el cubo de Unity como referencia; ese cubo tiene 1x1x1 metro.
+2. Asegurarse de que el modelo esté en la posición (0, 0, 0).
+3. Posicionar el pivote en el centro del modelo 3D.
 
-- Pivote
+- **Pivote**
    - Modelo 3D
 
-Respetar esta herarquia; crea un empty object (pivote) y has el modelo 3D hijo de es GameObject, luego, recuerda que es el modelo 3D que debes mover para que quede posicionado corectamente respecto al pivote
+Respetar esta jerarquía: crea un *empty object* (pivote) y haz que el modelo 3D sea hijo de este GameObject. Luego, recuerda que es el modelo 3D el que debes mover para que quede posicionado correctamente respecto al pivote.
 
-![image](https://github.com/user-attachments/assets/3b4089f8-8d09-451f-988c-70b402edf402)
+<img src="https://github.com/user-attachments/assets/3b4089f8-8d09-451f-988c-70b402edf402" alt="Hub" width="600"/>
 
 ### Button Item Prefab
 
-Al definir el prefab del boton es obligatorio seguir este orden de herarquia:
+Al definir el prefab del botón, es obligatorio seguir este orden de jerarquía:
 
 - ButtonItemPrefab
   - ItemName
   - ItemImage
   - ItemDescription
 
-![image](https://github.com/user-attachments/assets/e7d4a52e-f122-49c8-a4e8-d5d8bcb1d771)
+<img src="https://github.com/user-attachments/assets/e7d4a52e-f122-49c8-a4e8-d5d8bcb1d771" alt="Hub" width="600"/>
 
 ### Script ItemButtonManager
 
-Importante! En el capitulos 2 en la UI, les dije que existen dos tipos de UI, TextMeshPro, Legacy, dependiendo de cual hayan elegido, el codigo cambiara. 
+¡Importante! En el capítulo 2 sobre la UI, mencioné que existen dos tipos de UI: TextMeshPro y Legacy. Dependiendo de cuál hayan elegido, el código cambiará.
 
-- Legacy o la misma del video
+- **Legacy** o la misma del video:
 
-El codigo funciona tal cual no necesita cambios
+  El código funciona tal cual y no necesita cambios.
 
-- TextMeshPro
+- **TextMeshPro**:
 
-Andir el namespace:
+  Añadir el namespace:
 
-```csharp
-using TMPro;
-```
+  ```csharp
+  using TMPro;
+  ```
 
-Cambiar esta parte de la funcion start queda asi:
+  Cambiar esta parte de la función `Start` para que quede así:
 
-```csharp
-    void Start()
-    {
-        transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = itemName;
-        transform.GetChild(1).GetComponent<RawImage>().texture = itemImage.texture;
-        transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = itemDescription;
+  ```csharp
+  void Start()
+  {
+      transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = itemName;
+      transform.GetChild(1).GetComponent<RawImage>().texture = itemImage.texture;
+      transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = itemDescription;
 
-        var button = GetComponent<Button>();
-        button.onClick.AddListener(GameManager.Instance.ARPosition);
-        button.onClick.AddListener(Create3DModel);
-    }
-```
-## Capitulo cinco: ¿Cómo integrar Modelos 3D en Realidad Aumentada?
+      var button = GetComponent<Button>();
+      button.onClick.AddListener(GameManager.Instance.ARPosition);
+      button.onClick.AddListener(Create3DModel);
+  }
+  ```
+## Capitulo cinco: Posicionar Modelos 3D en Realidad Aumentada
+
+**⬇️⬇️⬇️ Click en la imagen para ver el video 👇👇👇**
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/Hjx9o8D1DZg">
+        <img src="https://github.com/user-attachments/assets/a042e3df-d5ee-48c4-8996-817afccc28c6" alt="Mira el video en YouTube" width="600"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 ## Capitulo seis: Rotar y Seleccionar Modelos 3D en Realidad Aumentada
+
+**⬇️⬇️⬇️ Click en la imagen para ver el video 👇👇👇**
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/Wh6vGrPHsJ4">
+        <img src="https://github.com/user-attachments/assets/6b7d5d36-6494-437c-a234-fa7b7ebfa7ef" alt="Mira el video en YouTube" width="600"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 ## Capitulo siete: Fotos en Realidad Aumentada
+
+**⬇️⬇️⬇️ Click en la imagen para ver el video 👇👇👇**
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/3TcZXDNBjk0">
+        <img src="https://github.com/user-attachments/assets/3a44c847-1687-44d1-bc7a-e46d66c84980" alt="Mira el video en YouTube" width="600"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 ## Capitulo ocho: Actualizar Contenido en Tiempo Real Realidad Aumentada
+
+**⬇️⬇️⬇️ Click en la imagen para ver el video 👇👇👇**
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/RkbF85LOSiM">
+        <img src="https://github.com/user-attachments/assets/8f624f93-9b78-4284-a189-6a9e8c33a96d" alt="Mira el video en YouTube" width="600"/>
+      </a>
+    </td>
+  </tr>
+</table>
