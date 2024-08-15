@@ -44,7 +44,22 @@ Visual Studio debe estar correctamente instalado y configurado, y debe estar enl
 
 ## Capitulo uno: ¿Cómo crear una aplicación de Realidad Aumentada?
 
-[![Mira el video en YouTube](https://i9.ytimg.com/vi_webp/TI599JorZ5M/maxresdefault.webp?v=620b6a77&sqp=CND87bUG&rs=AOn4CLB1pWwcgGl9uVFE5opKXLqMapG0UQ)](https://youtu.be/TI599JorZ5M)
+[![Mira el video en YouTube](https://github.com/user-attachments/assets/c88d1e30-c87e-4d7e-8a14-3d50b1d61d1e)](https://youtu.be/TI599JorZ5M)
+
+<a href="https://youtu.be/TI599JorZ5M">
+  <img src="https://github.com/user-attachments/assets/c88d1e30-c87e-4d7e-8a14-3d50b1d61d1e" alt="Mira el video en YouTube" width="600"/>
+</a>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/TI599JorZ5M">
+        <img src="https://github.com/user-attachments/assets/c88d1e30-c87e-4d7e-8a14-3d50b1d61d1e" alt="Mira el video en YouTube" width="600"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 ### Configuracion
 
