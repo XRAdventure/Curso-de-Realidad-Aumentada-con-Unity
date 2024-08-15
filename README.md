@@ -2,6 +2,12 @@
 
 Durante este curso, crearás una aplicación profesional de Realidad Aumentada llamada **AR Furniture**. Esta aplicación permite al usuario posicionar objetos en su entorno seleccionándolos desde un inventario. Una vez colocados, los objetos pueden ser seleccionados, movidos y rotados. Además, es posible tomar una foto del entorno con los objetos en AR y compartirla en redes sociales.
 
+
+https://github.com/user-attachments/assets/9bea7d53-a317-4830-a8d5-589b8944b1e7
+
+
+
+
 ## 📖 Capitulos
 
 - [Capitulo 0](#capitulo-cero-requerimientos)
